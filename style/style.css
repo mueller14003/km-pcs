@@ -1,0 +1,125 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 760px;
+    color: #eee;
+    background: #282C34;
+    font-size:16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100%;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body a {
+    color: #809fff;
+}
+
+.main-container {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+}
+
+.footer-box {
+    background-color: #1a1c22;
+    text-align: center;
+    padding: 15px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ftr {
+    text-decoration: none;
+    color: #6a768a;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 1 1 0;
+    padding: 5px;
+}
+
+.constrained {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.topnav {
+    background-color: #1a1c22;
+    overflow: hidden;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color:#d86561;
+    color: black;
+}
+
+hr {
+    height: 1px;
+    background-color: #49515f;
+    border: none;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: 75px;
+}
+
+@media only screen and (min-width: 800px) {
+    body {width: 760px;}
+}
+  
+@media only screen and (max-width: 800px) {
+    body {width: 100%;}
+}
