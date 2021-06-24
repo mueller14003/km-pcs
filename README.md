@@ -1,2 +1,2 @@
-# kyle-mueller-custom-computers
-Repo to host my computer building/selling website
+# Kyle Mueller Custom PCs
+Repo to host my custom PC building/selling website
