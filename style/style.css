@@ -90,6 +90,7 @@ main {
     background-color: var(--dark-clr);
     padding: 15px 15px;
     font-family: 'Open Sans', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 2px 8px;
 }
 
 .left {
