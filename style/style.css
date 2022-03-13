@@ -98,6 +98,7 @@ main {
     background-color: var(--dark-clr);
     width: 90%;
     text-align: center;
+    border: none;
 }
 
 .left {
