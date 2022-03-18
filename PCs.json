@@ -1,0 +1,109 @@
+{
+    "PCs":[
+        {
+            "CPU":"R7 5800X",
+            "GPU":"RTX 2080 Ti",
+            "url":"https://www.instagram.com/p/CbB0HTMrAqT/"
+        },
+        {
+            "CPU":"R9 5900X",
+            "GPU":"RTX 3080 Ti",
+            "url":"https://www.instagram.com/p/CYYayzsL-IP/"
+        },
+        {
+            "CPU":"R5 5600X",
+            "GPU":"RTX 3060 Ti",
+            "url":""
+        },
+        {
+            "CPU":"R7 5800X",
+            "GPU":"RTX 2060",
+            "url":"https://www.instagram.com/p/CQQfeIbF3XI/"
+        },
+        {
+            "CPU":"R5 5600X",
+            "GPU":"RTX 3060 Ti (ITX)",
+            "url":"https://www.instagram.com/p/CamAu4lrblh/"
+        },
+        {
+            "CPU":"R7 3800XT",
+            "GPU":"GTX 1080 Ti",
+            "url":""
+        },
+        {
+            "CPU":"R7 3700X",
+            "GPU":"GTX 1080",
+            "url":"https://www.instagram.com/p/CTl8JX3rQjE/"
+        },
+        {
+            "CPU":"i7-8700k",
+            "GPU":"GTX 1070 Ti",
+            "url":"https://www.facebook.com/marketplace/item/564933598066667/"
+        },
+        {
+            "CPU":"R7 5800X",
+            "GPU":"RTX 3080",
+            "url":"https://www.instagram.com/p/CK05wr_lANI/"
+        },
+        {
+            "CPU":"R7 3800X",
+            "GPU":"GTX 1080",
+            "url":"https://www.facebook.com/marketplace/item/401260000944918/"
+        },
+        {
+            "CPU":"i9-9900k",
+            "GPU":"GTX 1080",
+            "url":"https://www.facebook.com/marketplace/item/422292085738597/"
+        },
+        {
+            "CPU":"R7 2700",
+            "GPU":"GTX 970",
+            "url":"https://www.facebook.com/marketplace/item/456581812431082/"
+        },
+        {
+            "CPU":"R5 3600XT",
+            "GPU":"GTX 1080",
+            "url":"https://www.facebook.com/marketplace/item/2979098552349729/"
+        },
+        {
+            "CPU":"R9 3900X",
+            "GPU":"RTX 2070",
+            "url":"https://www.instagram.com/p/CEfz4eplfQq/"
+        },
+        {
+            "CPU":"i7-8700k",
+            "GPU":"GTX 1070",
+            "url":"https://www.facebook.com/marketplace/item/253559569479389/"
+        },
+        {
+            "CPU":"R7 3700X",
+            "GPU":"RTX 2070",
+            "url":"https://www.facebook.com/marketplace/item/297359881374323/"
+        },
+        {
+            "CPU":"R5 5600X",
+            "GPU":"GTX 1660",
+            "url":"https://www.facebook.com/marketplace/item/191987322437747/"
+        },
+        {
+            "CPU":"R5 3600",
+            "GPU":"GTX 1660",
+            "url":"https://www.facebook.com/marketplace/item/485229175951296/"
+        },
+        {
+            "CPU":"i5-4670k",
+            "GPU":"GTX 960",
+            "url":"https://www.facebook.com/marketplace/item/2104288919712210/"
+        },
+        {
+            "CPU":"i7-8700k",
+            "GPU":"RTX 2070",
+            "url":""
+        },
+        {
+            "CPU":"i7-8700",
+            "GPU":"GTX 1060",
+            "url":"https://www.facebook.com/marketplace/item/267783064782990/"
+        }
+    ]
+}

@@ -9,8 +9,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="./media/images/favicon.ico?">
     <title>Home</title>
     <link rel="stylesheet" href="./style/style.css">
+    <script src="./js/load-pcs.js"></script>
   </head>
-  <body>
+  <body onload="loadPCs();">
     <header>
       <h1>KM Custom PCs</h1>
       <img src="./media/images/banner.jpg" alt="Banner" class="constrained">
@@ -21,154 +22,18 @@
       </div>
     </header>
     <main>
-        <p class="descriptive">I take pride in the quality of the PCs I build, and I hope to build one for you!<br>
-          If you'd like me to build you a custom rig, contact me at 
-          <a class="link" href="mailto:kyle.mueller.custom.pcs@gmail.com?subject=KM%20Custom%20PCs">kyle.mueller.custom.pcs@gmail.com</a>!
-        </p>
-        <p class="descriptive">Check out this PC build tutorial I recently made:<br><br>
-          <iframe class="youtube_video"
-            src="https://www.youtube.com/embed/M-WXDzyfRtQ?autoplay=1&mute=1">
-          </iframe>
-        </p>
-        <p class="descriptive">In the pictures below, you'll see a few of the custom computers I have built.
-          <br>To check out more of the builds I have done, follow me on instagram <a class="link" href="https://www.instagram.com/k.m.pcs/">@k.m.pcs</a>!</p>
-        <div class="grid">
-          <article class="card product-item" onclick="location.href='https://www.instagram.com/p/CK05wr_lANI/'">
-              <header class="card__header">
-                  <h1 class="product__title">R7 5800X, RTX 3080</h1>
-              </header>
-              <div class="card__image">
-                <img src="./media/images/R7_5800X_RTX3080.jpeg" alt="R7-5800X-RTX3080" class="card__image">
-              </div>
-          </article>
-
-          <article class="card product-item" onclick="location.href='https://www.instagram.com/p/CQQfeIbF3XI/'">
-            <header class="card__header">
-                <h1 class="product__title">R7 5800X, RTX 2060</h1>
-            </header>
-            <div class="card__image">
-              <img src="./media/images/R7_5800X_RTX2060.jpg" alt="R7-5800X-RTX2060" class="card__image">
-            </div>
-          </article>
-
-          <article class="card product-item">
-            <header class="card__header">
-                <h1 class="product__title">R7 3800XT, GTX 1080 Ti</h1>
-            </header>
-            <div class="card__image">
-              <img src="./media/images/R7_3800XT_GTX1080Ti.jpg" alt="R7-3800XT-GTX1080Ti" class="card__image">
-            </div>
-          </article>
-
-          <article class="card product-item" onclick="location.href='https://www.instagram.com/p/CTl8JX3rQjE/'">
-            <header class="card__header">
-                <h1 class="product__title">R7 3700X, GTX 1080</h1>
-            </header>
-            <div class="card__image">
-              <img src="./media/images/R7_3700X_GTX1080.jpg" alt="R7-3700X-GTX1080" class="card__image">
-            </div>
-          </article>
-      
-          <article class="card product-item" onclick="location.href='https://www.facebook.com/marketplace/item/564933598066667/'">
-            <header class="card__header">
-                <h1 class="product__title">i7-8700k, GTX 1070 Ti</h1>
-            </header>
-            <div class="card__image">
-              <img src="./media/images/i7-8700k_GTX1070Ti.jpg" alt="i7-8700k-GTX1070Ti" class="card__image">
-            </div>
-          </article>
-
-          <article class="card product-item" onclick="location.href='https://www.facebook.com/marketplace/item/422292085738597/'">
-              <header class="card__header">
-                  <h1 class="product__title">i9-9900k, GTX 1080</h1>
-              </header>
-              <div class="card__image">
-                <img src="./media/images/i9-9900k_GTX1080.jpg" alt="i9-9900k-GTX1080" class="card__image">
-              </div>
-              
-          </article>
-      
-          <article class="card product-item" onclick="location.href='https://www.facebook.com/marketplace/item/456581812431082/'">
-              <header class="card__header">
-                  <h1 class="product__title">R7 2700, GTX 970</h1>
-              </header>
-              <div class="card__image">
-                <img src="./media/images/R7_2700_GTX970.jpg" alt="R7-2700-GTX970" class="card__image">
-              </div>
-          </article>
-                    
-          <article class="card product-item" onclick="location.href='https://www.facebook.com/marketplace/item/401260000944918/'">
-              <header class="card__header">
-                  <h1 class="product__title">R7 3800X, GTX 1080</h1>
-              </header>
-              <div class="card__image">
-                <img src="./media/images/R7_3800X_GTX1080.jpg" alt="R7-3800X-GTX1080" class="card__image">
-              </div>               
-          </article>
-      
-          <article class="card product-item" onclick="location.href='https://www.facebook.com/marketplace/item/253559569479389/'">
-              <header class="card__header">
-                  <h1 class="product__title">i7-8700k, GTX 1070</h1>
-              </header>
-              <div class="card__image">
-                <img src="./media/images/i7-8700k_GTX1070.jpeg" alt="i7-8700k-GTX1070" class="card__image">
-              </div> 
-          </article>
-      
-          <article class="card product-item" onclick="location.href='https://www.facebook.com/marketplace/item/191987322437747/'">
-              <header class="card__header">
-                  <h1 class="product__title">R5 5600X, GTX 1660</h1>
-              </header>
-              <div class="card__image">
-                <img src="./media/images/R5_5600X_GTX1660.jpg" alt="R5-5600X-GTX1660" class="card__image">
-              </div>
-          </article>
-      
-          <article class="card product-item" onclick="location.href='https://www.facebook.com/marketplace/item/297359881374323/'">
-              <header class="card__header">
-                  <h1 class="product__title">R7 3700X, RTX 2070</h1>
-              </header>
-              <div class="card__image">
-                <img src="./media/images/R7_3700X_RTX2070.jpg" alt="R7-3700X-RTX2070" class="card__image">
-              </div>
-          </article>
-      
-          <article class="card product-item" onclick="location.href='https://www.facebook.com/marketplace/item/485229175951296/'">
-              <header class="card__header">
-                  <h1 class="product__title">R5 3600, GTX 1660</h1>
-              </header>
-              <div class="card__image">
-                <img src="./media/images/R5_3600_GTX1660.jpg" alt="R5-3600-GTX1660" class="card__image">
-              </div>
-          </article>
-      
-          <article class="card product-item" class="card__image" onclick="location.href='https://www.facebook.com/marketplace/item/2104288919712210'">
-            <header class="card__header">
-                <h1 class="product__title">i5-4670k, GTX 960</h1>
-            </header>
-            <div class="card__image">
-              <img src="./media/images/i5-4670k_GTX960.jpg" alt="i5-4670k-GTX960">
-            </div>
-          </article>
-
-          <article class="card product-item" class="card__image">
-              <header class="card__header">
-                  <h1 class="product__title">i7-8700k, RTX 2070</h1>
-              </header>
-              <div class="card__image">
-                <img src="./media/images/i7-8700k_RTX2070.jpg" alt="i7-8700k-RTX2070">
-              </div>
-          </article>
-          
-          <article class="card product-item" class="card__image" onclick="location.href='https://www.facebook.com/marketplace/item/267783064782990/'">
-            <header class="card__header">
-                <h1 class="product__title">i7-8700, GTX 1060</h1>
-            </header>
-            <div class="card__image">
-              <img src="./media/images/i7-8700_GTX1060.jpg" alt="i7-8700-GTX1060">
-            </div>
-          </article>
-      </div>
+      <p class="descriptive">I take pride in the quality of the PCs I build, and I hope to build one for you!<br>
+        If you'd like me to build you a custom rig, contact me at 
+        <a class="link" href="mailto:kyle.mueller.custom.pcs@gmail.com?subject=KM%20Custom%20PCs">kyle.mueller.custom.pcs@gmail.com</a>!
+      </p>
+      <p class="descriptive">Check out this PC build tutorial I recently made:<br><br>
+        <iframe class="youtube_video"
+          src="https://www.youtube.com/embed/M-WXDzyfRtQ?autoplay=1&mute=1">
+        </iframe>
+      </p>
+      <p class="descriptive">In the pictures below, you'll see a few of the custom computers I have built.
+        <br>To check out more of the builds I have done, follow me on instagram <a class="link" href="https://www.instagram.com/k.m.pcs/">@k.m.pcs</a>!</p>
+      <div class="grid" id="pc_grid"></div>
     </main>
     <footer class="footer-box">
       <a class="ftr" href="mailto:kyle.mueller.custom.pcs@gmail.com?subject=KM%20Custom%20PCs">Contact</a>
