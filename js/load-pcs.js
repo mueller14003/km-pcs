@@ -1,5 +1,4 @@
 function loadPCs() {
-    disableAnnoyingBottomSpace();
     document.getElementById("pc_grid").innerHTML = "";
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
@@ -17,6 +16,7 @@ function loadPCs() {
     }
     xhttp.open("GET", "./PCs.json", true);
     xhttp.send();
+    disableAnnoyingBottomSpace();
 }
 
 function formatPC(PC) {
