@@ -35,5 +35,8 @@ function getImageSource(PC) {
 }
 
 function disableAnnoyingBottomSpace() {
-  document.getElementById("octo-extension-root").style = "display: none;";
+  var badSpace = document.getElementById("octo-extension-root");
+  if (badSpace != null) {
+    badSpace.style = "display: none;";
+  }
 }
