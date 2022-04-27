@@ -5,7 +5,7 @@ function loadPCs() {
       if (this.readyState == 4 && this.status == 200) {
         var json_obj = JSON.parse(this.responseText);
         for (x in json_obj.PCs) {
-          PC = json_obj.PCs[x]
+          PC = json_obj.PCs[x];
           document.getElementById("pc_grid").innerHTML += formatPC(PC);
         }
         document.getElementById("pc_grid").style = "";
@@ -16,6 +16,7 @@ function loadPCs() {
     }
     xhttp.open("GET", "./PCs.json", true);
     xhttp.send();
+    disableAnnoyingBottomSpace();
 }
 
 function formatPC(PC) {
@@ -31,4 +32,11 @@ function getTitle(PC) {
 
 function getImageSource(PC) {
     return "./media/images/" + PC.CPU.split(" ").join("_") + (PC.GPU == "" ? "" : `_${PC.GPU.split(" ").join('')}`) + ".jpg";
+}
+
+function disableAnnoyingBottomSpace() {
+  var badSpace = document.getElementById("octo-extension-root");
+  if (badSpace != null) {
+    badSpace.style = "display: none;";
+  }
 }
