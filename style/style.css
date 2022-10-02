@@ -168,6 +168,11 @@ main {
     width: 100%;
 }
 
+.logo {
+    width: 2em;
+    vertical-align: -33%;
+}
+
 h1 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
